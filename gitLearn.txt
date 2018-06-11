@@ -24,3 +24,5 @@ git reset --hard <commit id>  //回
 
 git reflog  //记录操作命令
 
+5.
+
