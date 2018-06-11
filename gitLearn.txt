@@ -25,4 +25,10 @@ git reset --hard <commit id>  //回
 git reflog  //记录操作命令
 
 5.
+cat <readme.txt>
+vim <readme.txt>
+
+git diff HEAD -- readme.txt //查看工作区和版本库里面最新版的差别
+
+
 
