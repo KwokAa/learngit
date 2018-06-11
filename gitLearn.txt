@@ -3,11 +3,23 @@ mkdir  pwd
 giit init
 
 2.添加文件到git仓库
-git add <file>
-git commit -m <message>
+
+git add <file>     //把文件修改添加入暂存区（stage/index）
+git commit -m <message>   //把暂存区的所有内容添加到master分支
 
 3.查看创库当前状态以及修改状态
 git status
 git diff
 
-4.
+4.版本回退
+git log
+git log --pretty=online  //查看commit id
+
+git reset --hard HEAD^
+git resrt --hard HEAD^^
+git resrt --hard HEAD~100   //退
+
+git reset --hard <commit id>  //回
+
+git reflog  //记录操作命令
+
